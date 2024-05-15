@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "foc-document-tracker-view-client-side-solution",
+    "id": "b0784b6b-d07b-491f-a3cb-32d17877e0e6",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "foc-document-tracker-view description"
+      },
+      "longDescription": {
+        "default": "foc-document-tracker-view description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "foc-document-tracker-view Feature",
+        "description": "The feature that activates elements of the foc-document-tracker-view solution.",
+        "id": "85e04aa5-7006-407e-9bbe-eb8228d210fd",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/foc-document-tracker-view.sppkg"
+  }
+}

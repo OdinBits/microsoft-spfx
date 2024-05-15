@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.14.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "foc-document-tracker-view",
+    "libraryId": "b0784b6b-d07b-491f-a3cb-32d17877e0e6",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "foc-document-tracker-view",
+    "solutionShortDescription": "foc-document-tracker-view description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

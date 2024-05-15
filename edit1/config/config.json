@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "foc-document-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/focDocumentWp/FocDocumentWpWebPart.js",
+          "manifest": "./src/webparts/focDocumentWp/FocDocumentWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FocDocumentWpWebPartStrings": "lib/webparts/focDocumentWp/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

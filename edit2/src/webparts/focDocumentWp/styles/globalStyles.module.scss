@@ -1,0 +1,25 @@
+.globalHeader 
+{
+    background-color: gray;
+    color: #333;
+    background-color: lightgray;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 5px;
+    
+}
+
+.userInfo 
+{
+    display: flex;
+    padding: 3px;
+    margin: 2px;
+}
+
+.hideOrView 
+{
+    margin-left: 10px; 
+    height: 100%; 
+    padding: 5px 10px; 
+}
+

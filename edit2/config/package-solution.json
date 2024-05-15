@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "assignment-4-client-side-solution",
+    "id": "d6f42cbb-e519-46c7-aed5-cec7b9944dd1",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "assignment-4 description"
+      },
+      "longDescription": {
+        "default": "assignment-4 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "assignment-4 Feature",
+        "description": "The feature that activates elements of the assignment-4 solution.",
+        "id": "d021f619-02b3-4039-8478-ffbb30e93d5e",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/assignment-4.sppkg"
+  }
+}
